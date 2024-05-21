@@ -1,0 +1,30 @@
+@font-face{
+    font-family:'Brasika';
+    src:url('src/main/resources/fontes/brasika-display-trial.otf');
+}
+
+#pnPesquisar{
+   -fx-background-color: #f48546;
+   -fx-background-radius: 20 20 0 0;
+   -fx-border-radius: 20 20 0 0;
+}
+
+#hbBotao{
+    -fx-background-color: #f48546;
+       -fx-background-radius: 0 0 20 20;
+       -fx-border-radius: 0 0 20 20;
+}
+
+#btnChat{
+    -fx-background-color: #fff7da;
+    -fx-background-radius: 50px;
+    -fx-text-fill: blue;
+}
+
+#btnComunidades{
+-fx-background-color: #fff7da;
+    -fx-background-radius: 50px;
+    -fx-text-fill: blue;
+
+}
+

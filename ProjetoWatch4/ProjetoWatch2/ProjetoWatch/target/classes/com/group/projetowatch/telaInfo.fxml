@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="quadro" prefHeight="700.0" prefWidth="1024.0" stylesheets="@estilos/info.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.group.projetowatch.infoController">
+    <children>
+    <AnchorPane fx:id="fundo" stylesheets="@estilos/info.css" AnchorPane.bottomAnchor="42.4" AnchorPane.leftAnchor="42.0" AnchorPane.rightAnchor="42.0" AnchorPane.topAnchor="42.4">
+         <children>
+            <Label fx:id="txtInformacoes" layoutX="106.0" layoutY="15.0" stylesheets="@estilos/info.css" text="Informações" AnchorPane.leftAnchor="45.6">
+               <font>
+                  <Font size="55.0" />
+               </font></Label>
+            <AnchorPane fx:id="fundoInterno" layoutX="328.0" layoutY="146.0" prefHeight="200.0" prefWidth="200.0" stylesheets="@estilos/info.css" AnchorPane.bottomAnchor="37.8" AnchorPane.leftAnchor="45.6" AnchorPane.rightAnchor="45.6" AnchorPane.topAnchor="110.0">
+               <children>
+                  <Label fx:id="watch_titulo" alignment="CENTER" layoutX="26.0" layoutY="22.0" prefHeight="48.0" prefWidth="818.0" stylesheets="@estilos/info.css" text="Watch: a rede social definitiva para cinéfilos e amantes do teatro!" wrapText="true" AnchorPane.bottomAnchor="398.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="22.0">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Label>
+                   <Label fx:id="watch_p1" alignment="CENTER" layoutX="50.0" layoutY="78.0" prefHeight="113.0" prefWidth="664.0" stylesheets="@estilos/info.css" text="Watch é a plataforma perfeita para quem adora filmes e peças de teatro. Aqui, você pode se conectar com outros apaixonados pela arte do entretenimento, compartilhar suas opiniões, críticas e descobrir novidades emocionantes. " wrapText="true" AnchorPane.bottomAnchor="250.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="60.0">
+                        <font>
+                            <Font name="System Bold" size="20.0" />
+                        </font>>
+                   </Label>
+                   <Label fx:id="watch_p2" layoutX="50.0" layoutY="191.0" prefHeight="113.0" prefWidth="664.0" stylesheets="@estilos/info.css" text="Explore uma variedade de comunidades dedicadas a diferentes gêneros, diretores, atores e muito mais. Participe de discussões animadas, descubra novos lançamentos e reviva os clássicos favoritos com pessoas que compartilham sua paixão. " wrapText="true" AnchorPane.bottomAnchor="120.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="140.0">
+                       <font>
+                           <Font name="System Bold" size="20.0" />
+                       </font>>
+                   </Label>
+                  <Label fx:id="watch_p3" layoutX="50.0" layoutY="287.0" prefHeight="113.0" prefWidth="664.0" stylesheets="@estilos/info.css" text="Explore uma variedade de comunidades dedicadas a diferentes gêneros, diretores, atores e muito mais. Participe de discussões animadas, descubra novos lançamentos e reviva os clássicos favoritos com pessoas que compartilham sua paixão. " wrapText="true" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="270.0">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+         </children></AnchorPane>
+      <Button fx:id="btnVoltar" mnemonicParsing="false" prefHeight="35.0" prefWidth="35.0" stylesheets="@estilos/info.css" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="30.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+    </children>
+
+</AnchorPane>
