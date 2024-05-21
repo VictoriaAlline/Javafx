@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="quadro" prefHeight="700.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.group.projetowatch.TelaController">
+   <children>
+      <BorderPane fx:id="fundo" layoutX="412.0" layoutY="211.0" prefHeight="200.0" prefWidth="200.0" stylesheets="@estilos/inicio.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <AnchorPane fx:id="fundoEsquerdo" prefHeight="200.0" prefWidth="230.0" stylesheets="@estilos/inicio.css" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane fx:id="fundoInternoEsquerdo" prefHeight="636.0" prefWidth="170.0" stylesheets="@estilos/inicio.css" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="40.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="25.0" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="200.0">
+                           <children>
+                              <Button mnemonicParsing="false" styleClass="botao" text="Button" />
+                              <Button mnemonicParsing="false" styleClass="botao" text="Button" />
+                              <Button mnemonicParsing="false" styleClass="botao" text="Button" />
+                              <Button mnemonicParsing="false" styleClass="botao" text="Button" />
+                           </children></VBox>
+                     </children>
+                     <effect>
+                        <ColorAdjust brightness="0.08" contrast="-0.03" saturation="0.09" />
+                     </effect>
+                  </AnchorPane>
+                  <ImageView fx:id="imgUser" fitHeight="150.0" fitWidth="146.0" layoutX="34.0" layoutY="39.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="510.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="40.0">
+                     <image>
+                        <Image url="@icones/imgUsuario.png" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+         </left>
+         <right>
+            <AnchorPane fx:id="fundoDireito" prefHeight="200.0" prefWidth="230.0" stylesheets="@estilos/inicio.css" BorderPane.alignment="CENTER" />
+         </right>
+         <center>
+            <AnchorPane fx:id="fundoCentro" prefHeight="200.0" prefWidth="200.0" stylesheets="@estilos/inicio.css" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

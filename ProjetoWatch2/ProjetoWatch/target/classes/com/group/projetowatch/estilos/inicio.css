@@ -1,0 +1,16 @@
+#fundoEsquerdo{
+    -fx-background-color: #4E2718;
+}
+
+#fundoDireito{
+    -fx-background-color: #4E2718;
+}
+
+#fundoCentro{
+    -fx-background-color: #F2E7C9;
+}
+
+#fundoInternoEsquerdo{
+-fx-background-color: #4E2718;
+-fx-background-radius: 20px;
+}

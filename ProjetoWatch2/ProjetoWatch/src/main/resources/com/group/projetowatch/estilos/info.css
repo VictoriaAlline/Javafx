@@ -1,0 +1,44 @@
+
+.root{
+    -fx-background-color: #FFD97C;
+}
+
+
+#fundo{
+    -fx-background-color: #4E2718;
+    -fx-background-radius: 20px;
+}
+
+#fundoInterno{
+    -fx-background-color: #FFE39D;
+    -fx-background-radius: 20px;
+
+}
+
+#txtInformacoes{
+    -fx-text-fill: #FFE39D;
+}
+
+#watch_titulo{
+    -fx-text-fill: #4E2718;
+}
+
+#btnVoltar{
+    -fx-background-radius: 50px;
+}
+
+#watch_p1{
+    -fx-text-fill: #4E2718;
+}
+
+#watch_p2{
+    -fx-text-fill: #4E2718;
+}
+
+#watch_p3{
+    -fx-text-fill: #4E2718;
+}
+
+#btnVoltar{
+    -fx-background-color: #fff7DA;
+}
